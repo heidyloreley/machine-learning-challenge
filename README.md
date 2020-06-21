@@ -49,8 +49,10 @@ The raw database contain 9,564 records of potential exoplanets (rows) and includ
 - To validate if the model could improve its performance, 4 different values of C and gamma parameters were tested within the GridSearchCV “fit” and a “score” method.
 - The model accuracy after this procees improve its prediction performance, with the best combination of parameters being: {'C': 50, 'gamma': 0.0001}
 - Finally comparing the accuracy score of the initial model vs its tuned model would be:
-	Initial vs Tuned Model Training Accuracy: 0.841 vs 0.879
-	Initial vs Tuned Model Testing Accuracy: 0.850 vs 0.884
+
+		Initial vs Tuned Model Training Accuracy: 0.841 vs 0.879
+
+		Initial vs Tuned Model Testing Accuracy: 0.850 vs 0.884
 
 ### Model 4 - Logistic Regression
 
@@ -62,8 +64,10 @@ The raw database contain 9,564 records of potential exoplanets (rows) and includ
 - To validate if the model could improve its performance, 4 different values of C and max_iter parameters were tested within the GridSearchCV “fit” and a “score” method.
 - The model accuracy after this procees improve its prediction performance, with the best combination of parameters being: {'C': 50, 'gamma': 200}
 - Finally comparing the accuracy score of the initial model vs its tuned model would be:
-	Initial vs Tuned Model Training Accuracy: 0.840 vs 0.867
-	Initial vs Tuned Model Testing Accuracy: 0.852 vs 0.877
+
+		Initial vs Tuned Model Training Accuracy: 0.840 vs 0.867
+
+		Initial vs Tuned Model Testing Accuracy: 0.852 vs 0.877
 
 
 ## Conclusion
